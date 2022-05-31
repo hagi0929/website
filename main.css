@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+#ground {
+    padding: 0;
+    margin: 0;
+
+}
+.floor-wrapper{
+    height: 100%;
+    display: flex;
+}
+#floor {
+    padding-top: 30vh;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.background{
+    height: 100%;
+}
+img {
+    pointer-events: none;
+}
