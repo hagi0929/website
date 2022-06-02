@@ -6,6 +6,9 @@ body {
 body::-webkit-scrollbar{
     display: none;
 }
+#background {
+    position: absolute;
+}
 #ground {
     padding: 0;
     margin: 0;
@@ -32,11 +35,33 @@ body::-webkit-scrollbar{
     position: absolute;
     top: 50vh;
     left: 70vw;
-    transform: translateX(-50%) translateY(-50%);
+    transform:translateY(-50%) translateX(-50%);
 }
 .background{
     height: 100%;
 }
 img {
     pointer-events: none;
+}
+#main {
+    position: absolute;
+    z-index: 100;
+    top:50vh;
+    left:30vw;
+    transform:translateY(-50%) translateX(-50%);
+}
+#main span{
+    line-height: 80%;
+}
+.sub-title {
+    font-size: 50px;
+    color: #cdbdb7;
+}
+.title-primary {
+    font-size: 200px;
+    color: #aa7876;
+}
+.title-secondary {
+    font-size: 200px;
+    color: #cdbdb7;
 }
