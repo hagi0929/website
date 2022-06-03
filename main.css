@@ -1,67 +1,66 @@
-body {
-    height: 100vh;
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
     margin: 0;
-    background-color: #0c0d11;
-}
-body::-webkit-scrollbar{
-    display: none;
-}
-#background {
-    position: absolute;
-}
-#ground {
     padding: 0;
-    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif; !important;
+    vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+h1 {
+    font-size: 96px;
+}
+::-moz-selection {
+    background: #41FFFD;
+    color: #000
+}
+
+::selection {
+    background: #41FFFD;
+    color: #000
+}
+.Context {
+    font-size: 32px;
+}
+#welcome_upper{
 
 }
-#floor-wrapper{
+#welcome_lower{
+
+}
+header {
+    position: absolute;
+    height: 100vh;
     width: 100vw;
     display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    object-fit: cover;
+    align-items: center;
+    justify-content: center;
 }
-#floor_spacer{
-    height: 50vh;
-    width: 100%;
-}
-#floor {
-    width: 100%;
-    overflow: hidden;
-    opacity: 0.50;
+#welcome {
 
-}
-#spaceman-wrapper {
-    position: absolute;
-    top: 50vh;
-    left: 70vw;
-    transform:translateY(-50%) translateX(-50%);
-}
-.background{
-    height: 100%;
-}
-img {
-    pointer-events: none;
-}
-#main {
-    position: absolute;
-    z-index: 100;
-    top:50vh;
-    left:30vw;
-    transform:translateY(-50%) translateX(-50%);
-}
-#main span{
-    line-height: 80%;
-}
-.sub-title {
-    font-size: 50px;
-    color: #cdbdb7;
-}
-.title-primary {
-    font-size: 200px;
-    color: #aa7876;
-}
-.title-secondary {
-    font-size: 200px;
-    color: #cdbdb7;
 }
