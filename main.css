@@ -49,26 +49,26 @@ h1 {
     color: #000
 }
 .navbar{
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 20px;
     background-color: white;
+    padding: 40px;
     color: black;
+    z-index: 1;
 }
 .menu {
+    min-width: 500px;
     display: flex;
-    gap: 1em;
     font-size: 18px;
+    justify-content: space-evenly;
 }
 
-.menu li:hover {
-}
-.menu li {
-    padding: 5px 14px;
-}
 header {
     position: fixed;
+    top: 0;
+    left: 0;
     height: 100vh;
     width: 100vw;
     display: flex;
