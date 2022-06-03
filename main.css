@@ -23,35 +23,32 @@ blockquote, q {
     quotes: none
 }
 
-blockquote:after, blockquote:before, q:after, q:before {
-    content: '';
-    content: none
-}
-
 table {
     border-collapse: collapse;
     border-spacing: 0
 }
 h1 {
-    font-size: 96px;
+    font-size: 110px;
+    font-weight: 400;
+}
+.Medium {
+    font-size: 42px;
+    font-weight: 300;
+}
+.Small {
+    font-size: 21px;
+    font-weight: 300;
 }
 ::-moz-selection {
     background: #41FFFD;
     color: #000
 }
-
 ::selection {
     background: #41FFFD;
     color: #000
 }
-.Context {
-    font-size: 32px;
-}
-#welcome_upper{
-
-}
-#welcome_lower{
-
+#navigator {
+    display: flex;
 }
 header {
     position: absolute;
@@ -62,5 +59,14 @@ header {
     justify-content: center;
 }
 #welcome {
+    position: relative;
+    width: 40%;
+    min-width: 700px;
+    left: -15%;
+}
+#welcome_upper{
+
+}
+#welcome_lower{
 
 }
