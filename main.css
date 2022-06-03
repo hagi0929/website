@@ -54,12 +54,14 @@ h1 {
     align-items: center;
     justify-content: flex-end;
     background-color: white;
-    padding: 40px;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
     color: black;
     z-index: 1;
 }
 .menu {
-    min-width: 500px;
+    max-width: 40em;
+    width: 40vw;
     display: flex;
     font-size: 18px;
     justify-content: space-evenly;
